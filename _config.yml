@@ -3,20 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Tianming
+middle_name: 
+last_name: Liu
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: mobile sensing, space computing, human-computer interaction, data-driven design # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌏 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tianming-liu.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -29,7 +27,7 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: graywhite # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
@@ -49,9 +47,8 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+socials_in_search: false
+news_in_search: false
 
 # Dimensions
 max_width: 930px
@@ -144,12 +141,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
   projects:
     output: true
 
@@ -188,6 +179,12 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/books.md
+  - _pages/news.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -253,8 +250,6 @@ jekyll-archives:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -264,8 +259,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Liu]
+  first_name: [Tianming, T., T. M.]
 
   style: apa
   locale: en
@@ -324,7 +319,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 5 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

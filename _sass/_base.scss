@@ -231,7 +231,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .post-description {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 0.875rem;
 
   a {
@@ -555,6 +555,7 @@ footer.sticky-bottom {
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
+    padding: 0;
   }
 }
 
@@ -589,6 +590,10 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
     }
   }
+}
+
+.post-header {
+  margin-bottom: 2rem;
 }
 
 .post-title {
@@ -689,6 +694,15 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      padding: 1rem;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      height: 3.5rem;
+    }
+    .card-text {
+      font-size: 0.7rem;
     }
   }
 
@@ -706,9 +720,84 @@ footer.sticky-bottom {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 2rem 0;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  .project-meta {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--global-text-color);
+
+    p {
+      margin-bottom: 0.2rem;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    .highlight-name {
+      font-weight: 400;
+    }
+
+  }
+
+  .project-description {
+    margin: 1rem 0 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: justify;
+
+    p {
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .highlight-word {
+      color: var(--global-theme-color);
+      background-color: var(--global-highlight-bg-color);
+      font-weight: 400;
+    }
+  }
+}
+
+.project-images {
+  .row {
+    margin-top: 2.5rem;
+
+    &:first-child {
+      margin-top: 3rem;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
   }
 }
 
@@ -748,9 +837,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;

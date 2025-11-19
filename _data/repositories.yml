@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Tianming-Liu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Tianming-Liu/GeoScanner
+  - Tianming-Liu/CASA0018_DL4SN_ArchiVision
+  - Tianming-Liu/CASA0015-Mobile-System
+  - YikunLi9/SensiFlowers
+  - Tianming-Liu/CASA0019_EarthMotion
