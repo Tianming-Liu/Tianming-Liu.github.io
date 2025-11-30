@@ -37,21 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+        },{id: "projects-envlink",
+          title: 'EnvLink',
+          description: "Multi-modal Sensing and Visualization System",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/projects/envlink/";
             },},{id: "projects-flowing-center",
           title: 'Flowing Center',
           description: "Data-driven Design &amp; Agent-Based Modeling",
           section: "Projects",handler: () => {
               window.location.href = "/projects/flowing_center/";
+            },},{id: "projects-geoscanner",
+          title: 'GeoScanner',
+          description: "Portable Mobile Sensing Solution",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/geoscanner/";
+            },},{id: "projects-geotracker",
+          title: 'GeoTracker',
+          description: "Context-aware Geospatial Interaction Platform",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/geotracker/";
             },},{id: "projects-pocket-park-generation-system",
           title: 'Pocket Park Generation System',
           description: "Urban Data Analysis &amp; Data-driven Design",
