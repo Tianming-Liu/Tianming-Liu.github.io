@@ -20,8 +20,17 @@ I hold an MSc in Connected Environments from `University College London (CASA)`,
 My recent research focuses on bridging `machine perception` and `spatial cognition`, particularly within `data-sparse heritage habitats`, where human–environment complexity remains largely invisible to conventional tools. To address this gap, I develop integrated methodologies that combine multimodal sensing, geospatial analytics, and computational modeling.
 
 I operationalise this agenda through three interconnected strands:
-• building `multimodal mobile sensing system` that integrate computer vision, environmental and physiological sensors;
-• applying `AI-driven spatial analytics` to model human–environment relationships;
-• translating these insights into `computational design frameworks`.
 
-Ultimately, I aim to advance a paradigm of environmental intelligence, where spatial data and human experience evolve together as co-informing components in the design process.
+<div class="grey-block">
+  <p>Build <code>multimodal mobile sensing system</code> that integrate computer vision, environmental and physiological sensors</p>
+</div>
+
+<div class="grey-block">
+  <p>Apply <code>AI-driven spatial analytics</code> to model human–environment relationships</p>
+</div>
+
+<div class="grey-block">
+  <p>Translat these insights into <code>computational design frameworks</code></p>
+</div>
+
+I aim to advance a paradigm of environmental intelligence, where spatial data and human experience evolve together as co-informing components in the design process.

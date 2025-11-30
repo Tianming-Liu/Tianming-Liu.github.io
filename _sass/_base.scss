@@ -135,6 +135,18 @@ blockquote {
   }
 }
 
+.grey-block {
+  background: var(--global-code-bg-color);
+  border-left: 5px solid var(--global-theme-color);
+  margin: 0.6em 0;
+  padding: 0 1em;
+  font-size: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
+
 // Checklist
 
 ul.task-list {
