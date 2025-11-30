@@ -4,8 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - Tianming-Liu/EnvLink-Web
   - Tianming-Liu/GeoScanner
-  - Tianming-Liu/CASA0018_DL4SN_ArchiVision
   - Tianming-Liu/CASA0015-Mobile-System
-  - YikunLi9/SensiFlowers
+  - Tianming-Liu/CASA0018_DL4SN_ArchiVision
   - Tianming-Liu/CASA0019_EarthMotion
+  - YikunLi9/SensiFlowers
